@@ -87,6 +87,44 @@ button:hover {
 }
 
 
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style for the header using ID selector */
+#main-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Style for the content section using class selector */
+.content {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-family: 'Verdana', sans-serif;
+}
+
+.content h2 {
+  color: #333;
+}
+
+.content p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Style for the footer*
 
 
 
